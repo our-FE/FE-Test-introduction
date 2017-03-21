@@ -1,0 +1,18 @@
+{
+  "name": "170324",
+  "version": "1.0.0",
+  "description": "前端自动化测试",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.mail.netease.com:friday_share/170324.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "yingying",
+  "license": "ISC"
+}
