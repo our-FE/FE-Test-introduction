@@ -1,0 +1,17 @@
+{
+  "name": "my-UItest",
+  "description": "",
+  "version": "0.0.1",
+  "private": true,
+  "scripts":{
+    "catch":"node catch.js",
+    "diff" : "node diff.js"
+  },
+  "dependencies": {
+    "phantomjs": "^1.9.1"
+  },
+  "devDependencies": {
+    "page-monitor": "^0.5.4",
+    "pmui": "^0.2.6-4"
+  }
+}
