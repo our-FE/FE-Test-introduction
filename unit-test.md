@@ -175,3 +175,65 @@ describe('hooks', function() {
   // test cases
 });
 ```
+### 测试用例管理
+大型项目有很多测试用例。有时，我们希望只运行其中的几个，这时可以用`only`方法。`describe`块和`it`块都允许调用`only`方法，表示只运行某个测试套件或测试用例。
+
+`demo07`:测试脚本test/add.test.js就使用了only。
+```
+it.only('1 加 1 应该等于 2', function() {
+  expect(add(1, 1)).to.be.equal(2);
+});
+
+it('任何数加0应该等于自身', function() {
+  expect(add(1, 0)).to.be.equal(1);
+});
+```
+上面代码中，只有带有only方法的测试用例会运行。
+```
+$ mocha test/add.test.js
+
+  加法函数的测试
+    ✓ 1 加 1 应该等于 2
+
+  1 passing (10ms)
+```
+此外，还有`skip`方法，表示跳过指定的测试套件或测试用例。
+```
+it.skip('任何数加0应该等于自身', function() {
+  expect(add(1, 0)).to.be.equal(1);
+});
+```
+上面代码的这个测试用例不会执行。
+
+### 浏览器测试
+除了在命令行运行，Mocha还可以在浏览器运行。
+![image](http://www.ruanyifeng.com/blogimg/asset/2015/bg2015120305.png)
+
+首先，使用`mocha init`命令在指定目录生成初始化文件。
+```
+$ mocha init demo08
+```
+运行上面命令，就会在`demo08`目录下生成`index.html`文件，以及配套的脚本和样式表。
+
+然后，新建一个源码文件`add.js`。
+```
+// add.js
+function add(x, y) {
+  return x + y;
+}
+```
+然后，把这个文件，以及断言库chai.js，加入index.html。
+```
+<script>
+  mocha.setup('bdd');
+</script>
+<script src="add.js"></script>
+<script src="http://chaijs.com/chai.js"></script>
+<script src="tests.js"></script>
+<script>
+  mocha.run();
+</script>
+```
+最后，在`tests.js`里面写入测试脚本。
+
+现在，在浏览器里面打开`index.html`，就可以看到测试脚本的运行结果
