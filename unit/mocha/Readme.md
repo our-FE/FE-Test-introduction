@@ -1,4 +1,4 @@
-#Mocha-demo
+# Mocha-demo
 
 按照规范，测试用例的js要加上test.js后缀，或者是spec.js后缀。
 我们现在已经有测试用例了，可以开始执行命令了
@@ -120,13 +120,16 @@ ES6转码，需要安装`Babel`。
 js:babel-core/register
 ```
 
-上面代码中，`--compilers`参数后面紧跟一个用冒号分隔的字符串，冒号左边是文件的后缀名，右边是用来处理这一类文件的模块名。上面代码表示，运行测试之前，先用babel-core/register模块，处理一下.js文件。由于这里的转码器安装在项目内，所以要使用项目内安装的Mocha；如果转码器安装在全局，就可以使用全局的Mocha。
-下面是另外一个例子，使用Mocha测试CoffeeScript脚本。测试之前，先将.coffee文件转成.js文件。
+上面代码中，`--compilers`参数后面紧跟一个用冒号分隔的字符串，冒号左边是文件的后缀名，右边是用来处理这一类文件的模块名。
+上面代码表示，运行测试之前，先用`babel-core/register`模块，处理一下.js文件。
 
-$ mocha --compilers coffee:coffee-script/register
-注意，Babel默认不会对Iterator、Generator、Promise、Map、Set等全局对象，以及一些全局对象的方法（比如Object.assign）转码。如果你想要对这些对象转码，就要安装babel-polyfill。
+由于这里的转码器安装在项目内，所以要使用项目内安装的`Mocha`；如果转码器安装在全局，就可以使用全局的`Mocha`。
 
+**注意，Babel默认不会对Iterator、Generator、Promise、Map、Set等全局对象，以及一些全局对象的方法（比如Object.assign）转码。**如果你想要对这些对象转码，就要安装babel-polyfill。
+```
 $ npm install babel-polyfill --save
+```
 然后，在你的脚本头部加上一行。
-
+```
 import 'babel-polyfill'
+```

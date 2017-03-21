@@ -93,4 +93,85 @@ describe块称为"测试套件"（test suite），表示一组相关的测试。
 it块称为"测试用例"（test case），表示一个单独的测试，是测试的最小单位。它也是一个函数，第一个参数是测试用例的名称（"1 加 1 应该等于 2"），第二个参数是一个实际执行的函数。
 
 ### 断言
-### 异步代码
+刚刚列子里面有个断言
+```
+expect(add(1, 1)).to.be.equal(2);
+```
+断言，就是判断源码的实际执行结果与预期结果是否一致，如果不一致就抛出一个错误。
+但是mocha并不含断言库，所以如果要使用的话，就必须先引入断言库
+```
+var expect = require('chai').expect;
+```
+（断言库不只一种，看你喜欢）
+`chai`的优点是接近语言
+还有许多用法，详细的可以去参考[官方文档](http://chaijs.com/api/bdd/)
+
+基本上，`expect`断言的写法都是一样的。头部是expect方法，尾部是断言方法，比如`equal`、`a/an`、`ok`、`match`等。两者之间使用**to**或**to.be**连接。
+
+如果`expect`断言不成立，就会抛出一个错误。反过来，只要不抛出错误，测试用例就算通过。
+
+如果你的it里面，不写断言判断，也可以算作通过。
+
+
+
+
+
+### 异步
+
+#### 异步测试
+Mocha默认每个测试用例最多执行2000毫秒，如果到时没有得到结果，就报错。
+
+涉及异步操作的测试，时间一般是不够的，需要用-t或--timeout参数指定超时门槛，命令行：
+`mocha -t 5000 -s 1000 timeout.test.js`
+
+#### 异步代码
+当测试完成后只需调用回调函数。通过添加一个回调（通常命名done），以it()，摩卡会知道它应该等待被调用这个函数来完成测试。
+```
+describe('User', function() {
+  describe('#save()', function() {
+    it('should save without error', function(done) {
+      var user = new User('Luna');
+      user.save(function(err) {
+        if (err) done(err);
+        else done();
+      });
+    });
+  });
+});
+```
+另外，Mocha内置对Promise的支持，允许直接返回Promise，等到它的状态改变，再执行断言，而不用显式调用done方法。
+```
+it('异步请求应该返回一个对象', function() {
+  return fetch('https://api.github.com')
+    .then(function(res) {
+      return res.json();
+    }).then(function(json) {
+      expect(json).to.be.an('object');
+    });
+});
+```
+
+### 钩子
+Mocha在describe块之中，提供测试用例的四个钩子：before()、after()、beforeEach()和afterEach()。它们会在指定时间执行。
+```
+describe('hooks', function() {
+
+  before(function() {
+    // 在本区块的所有测试用例之前执行
+  });
+
+  after(function() {
+    // 在本区块的所有测试用例之后执行
+  });
+
+  beforeEach(function() {
+    // 在本区块的每个测试用例之前执行
+  });
+
+  afterEach(function() {
+    // 在本区块的每个测试用例之后执行
+  });
+
+  // test cases
+});
+```
