@@ -211,9 +211,9 @@ it.skip('任何数加0应该等于自身', function() {
 
 首先，使用`mocha init`命令在指定目录生成初始化文件。
 ```
-$ mocha init demo08
+$ mocha init xxx
 ```
-运行上面命令，就会在`demo08`目录下生成`index.html`文件，以及配套的脚本和样式表。
+运行上面命令，就会在`xxx`目录下生成`index.html`文件，以及配套的脚本和样式表。
 
 然后，新建一个源码文件`add.js`。
 ```
