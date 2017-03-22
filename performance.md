@@ -27,7 +27,7 @@ Phantomas作为自动化性能数据收集工具，解决了日常性能数据�
 
 **因此更推荐使用Phantomas作性能异常监控，而不是性能指标的评测。**
 
-### 案例
+### phantomas案例
 [戳我](./performance/readme.md)
 
 ## 参考文章
