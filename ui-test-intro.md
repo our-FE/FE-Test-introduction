@@ -20,9 +20,11 @@
 像素对比虽然直观，但动态元素居多且无法保证测试页面与线上页面同步时有所局限。国内[@云龙](https://github.com/fouber) 针对这个情况，提供了一个解决方案[page-monitor](https://github.com/fouber/page-monitor)，根据dom结构与样式的对比来对比整个页面的变动部分。
 
 eg:
+
 ![image](http://fex.baidu.com/img/front-end-test/pagemonitor.png)
 
 其工作原理就是利用phantom或其他headless浏览器访问页面，然后截图，然后执行一段js，遍历整个dom树，获取元素计算样式和元素内文本内容，构造出一个JSON结构，然后每次diff这个json来判断页面差异，并标记在截图上展示。dom树的diff过程有点类似react的虚拟dom树diff
+
 
 ![image](https://pic1.zhimg.com/09918f07833307ba8aa048cc0dfc0d88_b.jpg)
 
@@ -42,15 +44,19 @@ DOM树diff我们可以分辨出元素样式
  ![image](https://pic3.zhimg.com/ade3e3c68f4138355841d4dd39d5ee6a_b.jpg)
  
 (新增)
+
  ![image](https://pic4.zhimg.com/8a92b15d9f6e0662c245c0d4c02fa957_b.jpg)
  
 (删除)
+
  ![image](https://pic4.zhimg.com/4025954fd93cde9fda41a492c47bba83_b.jpg)
  
- (text修改)
+(text修改)
+ 
  ![image](https://pic4.zhimg.com/108970b55c63dc9aed5ff99fffaff2a3_b.jpg)
  
- (样式修改)
+(样式修改)
+ 
 
 ### 案例
 [戳我](./ui/readme.md)

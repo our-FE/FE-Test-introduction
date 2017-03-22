@@ -7,8 +7,8 @@ var Monitor = require('page-monitor');
 var url = config.website;
 var monitor = new Monitor(url);
 
-var version1 = 1489485363996,
-    version2 = 1489485560769;
+var version1 = 1490199679985,
+    version2 = 1490200007195;
 
 monitor.diff(version1, version2, function(code){
     console.log(monitor.log.info); // diff result
