@@ -9,6 +9,8 @@
 #### [PhantomCSS](https://github.com/Huddle/PhantomCSS)
 像素对比比较出名的工具是PhantomCSS。 PhantomCSS结合了 Casperjs截图和ResembleJs 图像对比分析。单纯从易用性和对比效果来说还是不错的。
 
+> PhantomJS是一个无界面的webkit内核浏览器，你可以把它当作一个没有界面的Safari
+
 ![image](http://fex.baidu.com/img/front-end-test/diff.png)
 
  但是这里有个问题，基于像素对比的情况很有可能会因为1像素偏差就导致对比失败，但有时候我们是不在意这1像素的。 整个页面的测试导致任何一点文字、图像等动态的改变都可能导致不通过，而且真正的错误可能由于图像太大而被阈值忽略。图像越大对比也越容易超时。
@@ -32,15 +34,22 @@ DOM树diff我们可以分辨出元素样式
  + 内容修改
  + 新增元素
  + 删除元素
- 四种不同的页面差异，我们可以配置选择器来忽略元素。四种页面差异的效果图：
+ 
+ 四种不同的页面差异，我们可以配置选择器来忽略元素。
+ 
+ 四种页面差异的效果图：
 
  ![image](https://pic3.zhimg.com/ade3e3c68f4138355841d4dd39d5ee6a_b.jpg)
+ 
 (新增)
  ![image](https://pic4.zhimg.com/8a92b15d9f6e0662c245c0d4c02fa957_b.jpg)
+ 
 (删除)
  ![image](https://pic4.zhimg.com/4025954fd93cde9fda41a492c47bba83_b.jpg)
+ 
  (text修改)
  ![image](https://pic4.zhimg.com/108970b55c63dc9aed5ff99fffaff2a3_b.jpg)
+ 
  (样式修改)
 
 ### 案例
