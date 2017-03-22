@@ -125,7 +125,7 @@ Mocha默认每个测试用例最多执行2000毫秒，如果到时没有得到�
 `mocha -t 5000 -s 1000 timeout.test.js`
 
 #### 异步代码
-当测试完成后只需调用回调函数。通过添加一个回调（通常命名done），以it()，摩卡会知道它应该等待被调用这个函数来完成测试。
+当测试完成后只需调用回调函数。通过添加一个回调（通常命名done），以it()，`mocha`会知道它应该等待被调用这个函数来完成测试。
 ```
 describe('User', function() {
   describe('#save()', function() {
@@ -237,3 +237,9 @@ function add(x, y) {
 最后，在`tests.js`里面写入测试脚本。
 
 现在，在浏览器里面打开`index.html`，就可以看到测试脚本的运行结果
+
+
+
+## 案例
+[跳到个readme](./unit/mocha/Readme.md)
+
