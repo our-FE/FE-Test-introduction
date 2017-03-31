@@ -1,0 +1,2203 @@
+{
+  "assertions": {},
+  "metrics": {
+    "requests": {
+      "values": [
+        37,
+        41,
+        41,
+        41,
+        41,
+        null
+      ],
+      "sum": 201,
+      "min": 37,
+      "max": 41,
+      "median": 41,
+      "average": 40.2
+    },
+    "gzipRequests": {
+      "values": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        null
+      ],
+      "sum": 75,
+      "min": 15,
+      "max": 15,
+      "median": 15,
+      "average": 15
+    },
+    "postRequests": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "httpsRequests": {
+      "values": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        null
+      ],
+      "sum": 30,
+      "min": 6,
+      "max": 6,
+      "median": 6,
+      "average": 6
+    },
+    "notFound": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "bodySize": {
+      "values": [
+        637222,
+        643541,
+        650150,
+        652099,
+        719601,
+        null
+      ],
+      "sum": 3302613,
+      "min": 637222,
+      "max": 719601,
+      "median": 650150,
+      "average": 660522.6
+    },
+    "contentLength": {
+      "values": [
+        779528,
+        792803,
+        798618,
+        804051,
+        838087,
+        null
+      ],
+      "sum": 4013087,
+      "min": 779528,
+      "max": 838087,
+      "median": 798618,
+      "average": 802617.4
+    },
+    "httpTrafficCompleted": {
+      "values": [
+        3221,
+        3543,
+        3817,
+        3941,
+        12135,
+        null
+      ],
+      "sum": 26657,
+      "min": 3221,
+      "max": 12135,
+      "median": 3817,
+      "average": 5331.4
+    },
+    "timeToFirstByte": {
+      "values": [
+        228,
+        299,
+        304,
+        318,
+        388,
+        null
+      ],
+      "sum": 1537,
+      "min": 228,
+      "max": 388,
+      "median": 304,
+      "average": 307.4
+    },
+    "timeToLastByte": {
+      "values": [
+        283,
+        321,
+        339,
+        436,
+        476,
+        null
+      ],
+      "sum": 1855,
+      "min": 283,
+      "max": 476,
+      "median": 339,
+      "average": 371
+    },
+    "ajaxRequests": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "htmlCount": {
+      "values": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        null
+      ],
+      "sum": 25,
+      "min": 5,
+      "max": 5,
+      "median": 5,
+      "average": 5
+    },
+    "htmlSize": {
+      "values": [
+        197772,
+        197831,
+        232981,
+        245856,
+        245856,
+        null
+      ],
+      "sum": 1120296,
+      "min": 197772,
+      "max": 245856,
+      "median": 232981,
+      "average": 224059.2
+    },
+    "cssCount": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "cssSize": {
+      "values": [
+        55054,
+        57778,
+        58171,
+        60705,
+        98945,
+        null
+      ],
+      "sum": 330653,
+      "min": 55054,
+      "max": 98945,
+      "median": 58171,
+      "average": 66130.6
+    },
+    "jsCount": {
+      "values": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        null
+      ],
+      "sum": 40,
+      "min": 8,
+      "max": 8,
+      "median": 8,
+      "average": 8
+    },
+    "jsSize": {
+      "values": [
+        251465,
+        273438,
+        294470,
+        315303,
+        319754,
+        null
+      ],
+      "sum": 1454430,
+      "min": 251465,
+      "max": 319754,
+      "median": 294470,
+      "average": 290886
+    },
+    "jsonCount": {
+      "values": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        null
+      ],
+      "sum": 15,
+      "min": 3,
+      "max": 3,
+      "median": 3,
+      "average": 3
+    },
+    "jsonSize": {
+      "values": [
+        34682,
+        34682,
+        34682,
+        34693,
+        34693,
+        null
+      ],
+      "sum": 173432,
+      "min": 34682,
+      "max": 34693,
+      "median": 34682,
+      "average": 34686.4
+    },
+    "imageCount": {
+      "values": [
+        17,
+        17,
+        17,
+        17,
+        17,
+        null
+      ],
+      "sum": 85,
+      "min": 17,
+      "max": 17,
+      "median": 17,
+      "average": 17
+    },
+    "imageSize": {
+      "values": [
+        186602,
+        186602,
+        186602,
+        186602,
+        186602,
+        null
+      ],
+      "sum": 933010,
+      "min": 186602,
+      "max": 186602,
+      "median": 186602,
+      "average": 186602
+    },
+    "videoCount": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "videoSize": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "webfontCount": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "webfontSize": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "base64Count": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "base64Size": {
+      "values": [
+        43,
+        43,
+        43,
+        43,
+        43,
+        null
+      ],
+      "sum": 215,
+      "min": 43,
+      "max": 43,
+      "median": 43,
+      "average": 43
+    },
+    "otherCount": {
+      "values": [
+        3,
+        7,
+        7,
+        7,
+        7,
+        null
+      ],
+      "sum": 31,
+      "min": 3,
+      "max": 7,
+      "median": 7,
+      "average": 6.2
+    },
+    "otherSize": {
+      "values": [
+        218,
+        262,
+        262,
+        262,
+        262,
+        null
+      ],
+      "sum": 1266,
+      "min": 218,
+      "max": 262,
+      "median": 262,
+      "average": 253.2
+    },
+    "cacheHits": {
+      "values": [
+        25,
+        25,
+        26,
+        26,
+        26,
+        null
+      ],
+      "sum": 128,
+      "min": 25,
+      "max": 26,
+      "median": 26,
+      "average": 25.6
+    },
+    "cacheMisses": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "cachePasses": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "cachingNotSpecified": {
+      "values": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        null
+      ],
+      "sum": 30,
+      "min": 6,
+      "max": 6,
+      "median": 6,
+      "average": 6
+    },
+    "cachingTooShort": {
+      "values": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        null
+      ],
+      "sum": 70,
+      "min": 14,
+      "max": 14,
+      "median": 14,
+      "average": 14
+    },
+    "cachingDisabled": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "oldCachingHeaders": {
+      "values": [
+        24,
+        24,
+        24,
+        24,
+        26,
+        null
+      ],
+      "sum": 122,
+      "min": 24,
+      "max": 26,
+      "median": 24,
+      "average": 24.4
+    },
+    "consoleMessages": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "cookiesSent": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "cookiesRecv": {
+      "values": [
+        282,
+        282,
+        282,
+        282,
+        282,
+        null
+      ],
+      "sum": 1410,
+      "min": 282,
+      "max": 282,
+      "median": 282,
+      "average": 282
+    },
+    "domainsWithCookies": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "documentCookiesLength": {
+      "values": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        null
+      ],
+      "sum": 100,
+      "min": 20,
+      "max": 20,
+      "median": 20,
+      "average": 20
+    },
+    "documentCookiesCount": {
+      "values": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        null
+      ],
+      "sum": 10,
+      "min": 2,
+      "max": 2,
+      "median": 2,
+      "average": 2
+    },
+    "domains": {
+      "values": [
+        10,
+        12,
+        12,
+        12,
+        12,
+        null
+      ],
+      "sum": 58,
+      "min": 10,
+      "max": 12,
+      "median": 12,
+      "average": 11.6
+    },
+    "maxRequestsPerDomain": {
+      "values": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        null
+      ],
+      "sum": 100,
+      "min": 20,
+      "max": 20,
+      "median": 20,
+      "average": 20
+    },
+    "medianRequestsPerDomain": {
+      "values": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        null
+      ],
+      "sum": 10,
+      "min": 2,
+      "max": 2,
+      "median": 2,
+      "average": 2
+    },
+    "commentsSize": {
+      "values": [
+        1517,
+        1517,
+        1517,
+        1517,
+        1517,
+        null
+      ],
+      "sum": 7585,
+      "min": 1517,
+      "max": 1517,
+      "median": 1517,
+      "average": 1517
+    },
+    "hiddenContentSize": {
+      "values": [
+        5439,
+        5439,
+        5439,
+        5439,
+        5439,
+        null
+      ],
+      "sum": 27195,
+      "min": 5439,
+      "max": 5439,
+      "median": 5439,
+      "average": 5439
+    },
+    "whiteSpacesSize": {
+      "values": [
+        465,
+        465,
+        465,
+        465,
+        465,
+        null
+      ],
+      "sum": 2325,
+      "min": 465,
+      "max": 465,
+      "median": 465,
+      "average": 465
+    },
+    "DOMelementsCount": {
+      "values": [
+        101,
+        105,
+        105,
+        105,
+        105,
+        null
+      ],
+      "sum": 521,
+      "min": 101,
+      "max": 105,
+      "median": 105,
+      "average": 104.2
+    },
+    "DOMelementMaxDepth": {
+      "values": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        null
+      ],
+      "sum": 40,
+      "min": 8,
+      "max": 8,
+      "median": 8,
+      "average": 8
+    },
+    "nodesWithInlineCSS": {
+      "values": [
+        24,
+        24,
+        24,
+        24,
+        24,
+        null
+      ],
+      "sum": 120,
+      "min": 24,
+      "max": 24,
+      "median": 24,
+      "average": 24
+    },
+    "DOMmutationsInserts": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "DOMmutationsRemoves": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "DOMmutationsAttributes": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "DOMqueries": {
+      "values": [
+        41,
+        41,
+        41,
+        41,
+        41,
+        null
+      ],
+      "sum": 205,
+      "min": 41,
+      "max": 41,
+      "median": 41,
+      "average": 41
+    },
+    "DOMqueriesById": {
+      "values": [
+        41,
+        41,
+        41,
+        41,
+        41,
+        null
+      ],
+      "sum": 205,
+      "min": 41,
+      "max": 41,
+      "median": 41,
+      "average": 41
+    },
+    "DOMqueriesByClassName": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "DOMqueriesByTagName": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "DOMqueriesByQuerySelectorAll": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "DOMinserts": {
+      "values": [
+        11,
+        15,
+        15,
+        15,
+        15,
+        null
+      ],
+      "sum": 71,
+      "min": 11,
+      "max": 15,
+      "median": 15,
+      "average": 14.2
+    },
+    "DOMqueriesDuplicated": {
+      "values": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        null
+      ],
+      "sum": 40,
+      "min": 8,
+      "max": 8,
+      "median": 8,
+      "average": 8
+    },
+    "eventsBound": {
+      "values": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        null
+      ],
+      "sum": 30,
+      "min": 6,
+      "max": 6,
+      "median": 6,
+      "average": 6
+    },
+    "globalVariables": {
+      "values": [
+        79,
+        79,
+        79,
+        79,
+        79,
+        null
+      ],
+      "sum": 395,
+      "min": 79,
+      "max": 79,
+      "median": 79,
+      "average": 79
+    },
+    "globalVariablesFalsy": {
+      "values": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        null
+      ],
+      "sum": 10,
+      "min": 2,
+      "max": 2,
+      "median": 2,
+      "average": 2
+    },
+    "headersCount": {
+      "values": [
+        487,
+        520,
+        520,
+        521,
+        521,
+        null
+      ],
+      "sum": 2569,
+      "min": 487,
+      "max": 521,
+      "median": 520,
+      "average": 513.8
+    },
+    "headersSentCount": {
+      "values": [
+        110,
+        122,
+        122,
+        122,
+        122,
+        null
+      ],
+      "sum": 598,
+      "min": 110,
+      "max": 122,
+      "median": 122,
+      "average": 119.6
+    },
+    "headersRecvCount": {
+      "values": [
+        377,
+        398,
+        398,
+        399,
+        399,
+        null
+      ],
+      "sum": 1971,
+      "min": 377,
+      "max": 399,
+      "median": 398,
+      "average": 394.2
+    },
+    "headersSize": {
+      "values": [
+        15840,
+        16833,
+        16863,
+        16864,
+        16872,
+        null
+      ],
+      "sum": 83272,
+      "min": 15840,
+      "max": 16872,
+      "median": 16863,
+      "average": 16654.4
+    },
+    "headersSentSize": {
+      "values": [
+        4233,
+        4641,
+        4641,
+        4641,
+        4641,
+        null
+      ],
+      "sum": 22797,
+      "min": 4233,
+      "max": 4641,
+      "median": 4641,
+      "average": 4559.4
+    },
+    "headersRecvSize": {
+      "values": [
+        11607,
+        12192,
+        12222,
+        12223,
+        12231,
+        null
+      ],
+      "sum": 60475,
+      "min": 11607,
+      "max": 12231,
+      "median": 12222,
+      "average": 12095
+    },
+    "headersBiggerThanContent": {
+      "values": [
+        9,
+        13,
+        13,
+        13,
+        13,
+        null
+      ],
+      "sum": 61,
+      "min": 9,
+      "max": 13,
+      "median": 13,
+      "average": 12.2
+    },
+    "documentWriteCalls": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "evalCalls": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jQueryOnDOMReadyFunctions": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jQuerySizzleCalls": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jsErrors": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "localStorageEntries": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "redirects": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "redirectsTime": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "assetsNotGzipped": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "assetsWithQueryString": {
+      "values": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        null
+      ],
+      "sum": 20,
+      "min": 4,
+      "max": 4,
+      "median": 4,
+      "average": 4
+    },
+    "assetsWithCookies": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "smallImages": {
+      "values": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        null
+      ],
+      "sum": 40,
+      "min": 8,
+      "max": 8,
+      "median": 8,
+      "average": 8
+    },
+    "multipleRequests": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "timeToFirstCss": {
+      "values": [
+        2674,
+        2684,
+        2787,
+        2875,
+        2911,
+        null
+      ],
+      "sum": 13931,
+      "min": 2674,
+      "max": 2911,
+      "median": 2787,
+      "average": 2786.2
+    },
+    "timeToFirstJs": {
+      "values": [
+        227,
+        254,
+        255,
+        329,
+        352,
+        null
+      ],
+      "sum": 1417,
+      "min": 227,
+      "max": 352,
+      "median": 255,
+      "average": 283.4
+    },
+    "timeToFirstImage": {
+      "values": [
+        269,
+        298,
+        299,
+        376,
+        396,
+        null
+      ],
+      "sum": 1638,
+      "min": 269,
+      "max": 396,
+      "median": 299,
+      "average": 327.6
+    },
+    "onDOMReadyTime": {
+      "values": [
+        0,
+        52,
+        87,
+        158,
+        165,
+        null
+      ],
+      "sum": 462,
+      "min": 0,
+      "max": 165,
+      "median": 87,
+      "average": 92.4
+    },
+    "onDOMReadyTimeEnd": {
+      "values": [
+        7,
+        57,
+        95,
+        165,
+        171,
+        null
+      ],
+      "sum": 495,
+      "min": 7,
+      "max": 171,
+      "median": 95,
+      "average": 99
+    },
+    "windowOnLoadTime": {
+      "values": [
+        174,
+        182,
+        224,
+        232,
+        1050,
+        null
+      ],
+      "sum": 1862,
+      "min": 174,
+      "max": 1050,
+      "median": 224,
+      "average": 372.4
+    },
+    "windowOnLoadTimeEnd": {
+      "values": [
+        190,
+        199,
+        237,
+        240,
+        1050,
+        null
+      ],
+      "sum": 1916,
+      "min": 190,
+      "max": 1050,
+      "median": 237,
+      "average": 383.2
+    },
+    "timeBackend": {
+      "values": [
+        22,
+        50,
+        63,
+        64,
+        64,
+        null
+      ],
+      "sum": 263,
+      "min": 22,
+      "max": 64,
+      "median": 63,
+      "average": 52.6
+    },
+    "timeFrontend": {
+      "values": [
+        36,
+        36,
+        37,
+        50,
+        78,
+        null
+      ],
+      "sum": 237,
+      "min": 36,
+      "max": 78,
+      "median": 37,
+      "average": 47.4
+    },
+    "windowAlerts": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "windowConfirms": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "windowPrompts": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "bodyHTMLSize": {
+      "values": [
+        73006,
+        73400,
+        73401,
+        73416,
+        73417,
+        null
+      ],
+      "sum": 366640,
+      "min": 73006,
+      "max": 73417,
+      "median": 73401,
+      "average": 73328
+    },
+    "iframesCount": {
+      "values": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        null
+      ],
+      "sum": 20,
+      "min": 4,
+      "max": 4,
+      "median": 4,
+      "average": 4
+    },
+    "imagesWithoutDimensions": {
+      "values": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        null
+      ],
+      "sum": 30,
+      "min": 6,
+      "max": 6,
+      "median": 6,
+      "average": 6
+    },
+    "smallestResponse": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "biggestResponse": {
+      "values": [
+        130707,
+        130707,
+        130707,
+        130707,
+        130707,
+        null
+      ],
+      "sum": 653535,
+      "min": 130707,
+      "max": 130707,
+      "median": 130707,
+      "average": 130707
+    },
+    "fastestResponse": {
+      "values": [
+        30,
+        30,
+        33,
+        35,
+        36,
+        null
+      ],
+      "sum": 164,
+      "min": 30,
+      "max": 36,
+      "median": 33,
+      "average": 32.8
+    },
+    "slowestResponse": {
+      "values": [
+        711,
+        721,
+        745,
+        771,
+        9281,
+        null
+      ],
+      "sum": 12229,
+      "min": 711,
+      "max": 9281,
+      "median": 745,
+      "average": 2445.8
+    },
+    "smallestLatency": {
+      "values": [
+        30,
+        30,
+        32,
+        33,
+        35,
+        null
+      ],
+      "sum": 160,
+      "min": 30,
+      "max": 35,
+      "median": 32,
+      "average": 32
+    },
+    "biggestLatency": {
+      "values": [
+        699,
+        707,
+        715,
+        731,
+        9280,
+        null
+      ],
+      "sum": 12132,
+      "min": 699,
+      "max": 9280,
+      "median": 715,
+      "average": 2426.4
+    },
+    "medianResponse": {
+      "values": [
+        92,
+        106,
+        109,
+        123,
+        127,
+        null
+      ],
+      "sum": 557,
+      "min": 92,
+      "max": 127,
+      "median": 109,
+      "average": 111.4
+    },
+    "medianLatency": {
+      "values": [
+        82,
+        85,
+        88,
+        92,
+        106,
+        null
+      ],
+      "sum": 453,
+      "min": 82,
+      "max": 106,
+      "median": 88,
+      "average": 90.6
+    }
+  },
+  "offenders": {
+    "gzipRequests": [
+      "http://ursdoccdn.nosdn.127.net/webzj_m163/message_2016072801.js (gzip: 15.94 kB / uncompressed: 15.94 kB)",
+      "http://mail.163.com/ (gzip: 71.81 kB / uncompressed: 71.81 kB)",
+      "http://mimg.127.net/index/lib/scripts/base_v6_0_5.min.js (gzip: 16.54 kB / uncompressed: 16.54 kB)",
+      "http://mail.163.com/ (gzip: 71.36 kB / uncompressed: 71.36 kB)",
+      "http://ir3.mail.163.com/get.do?prod=wmail_lbp&ver=1&uid=nt@163.com&domain=163.com&mobUser=0&callback=themeHandler.callback&rnd=0.487019615015015 (gzip: 33.07 kB / uncompressed: 33.07 kB)",
+      "https://dl.reg.163.com/webzj/m163_1.0.1/pub/index_dl.html?wdaId= (gzip: 58.25 kB / uncompressed: 58.25 kB)",
+      "https://ursdoccdn.nosdn.127.net/m163_1.0.1/pp_index_dl_34ff92a1003683ec4ba864a1887a812c.js (gzip: 47.96 kB / uncompressed: 47.96 kB)",
+      "https://dl.reg.163.com/ini?pd=mail163&pkid=CvViHzl&pkht=mail.163.com&topURL=&nocache=1490191304360 (gzip: 0.04 kB / uncompressed: 0.04 kB)",
+      "http://mail.163.com/preload6.htm (gzip: 13.05 kB / uncompressed: 13.05 kB)",
+      "http://mimg.127.net/m/ir/8/bLoginTpl.js (gzip: 3.24 kB / uncompressed: 3.24 kB)",
+      "http://mimg.127.net/p/bjs/release/bjs-1.0.43.js (gzip: 47.33 kB / uncompressed: 47.33 kB)",
+      "http://mimg.127.net/p/js6/6.0b1702081428/js/p0.js (gzip: 54.06 kB / uncompressed: 54.06 kB)",
+      "http://mimg.127.net/p/js6/6.0b1702081428/css/base64_compress.css (gzip: 53.76 kB / uncompressed: 53.76 kB)",
+      "http://mimg.127.net/p/js6/6.0b1702081428/js/p1.js (gzip: 102.47 kB / uncompressed: 102.47 kB)",
+      "http://mail.163.com/ (gzip: 56.02 kB / uncompressed: 56.02 kB)",
+      "http://mail.163.com/ (gzip: 99.72 kB / uncompressed: 99.72 kB)",
+      "http://ir3.mail.163.com/get.do?prod=wmail_lbp&ver=1&uid=nt@163.com&domain=163.com&mobUser=0&callback=themeHandler.callback&rnd=0.039893451845273376 (gzip: 33.07 kB / uncompressed: 33.07 kB)",
+      "https://dl.reg.163.com/ini?pd=mail163&pkid=CvViHzl&pkht=mail.163.com&topURL=&nocache=1490191304236 (gzip: 0.04 kB / uncompressed: 0.04 kB)",
+      "http://mimg.127.net/p/bjs/release/bjs-1.0.43.js (gzip: 45.43 kB / uncompressed: 45.43 kB)",
+      "http://mimg.127.net/p/js6/6.0b1702081428/js/p0.js (gzip: 55.45 kB / uncompressed: 55.45 kB)",
+      "http://mimg.127.net/p/js6/6.0b1702081428/css/base64_compress.css (gzip: 59.28 kB / uncompressed: 59.28 kB)",
+      "http://mimg.127.net/p/js6/6.0b1702081428/js/p1.js (gzip: 60.99 kB / uncompressed: 60.99 kB)",
+      "http://ir3.mail.163.com/get.do?prod=wmail_lbp&ver=1&uid=nt@163.com&domain=163.com&mobUser=0&callback=themeHandler.callback&rnd=0.8681109824683517 (gzip: 33.07 kB / uncompressed: 33.07 kB)",
+      "https://dl.reg.163.com/ini?pd=mail163&pkid=CvViHzl&pkht=mail.163.com&topURL=&nocache=1490191304200 (gzip: 0.04 kB / uncompressed: 0.04 kB)",
+      "http://mimg.127.net/p/bjs/release/bjs-1.0.43.js (gzip: 68.16 kB / uncompressed: 68.16 kB)",
+      "http://mimg.127.net/p/js6/6.0b1702081428/js/p0.js (gzip: 48.95 kB / uncompressed: 48.95 kB)",
+      "http://mimg.127.net/p/js6/6.0b1702081428/css/base64_compress.css (gzip: 56.42 kB / uncompressed: 56.42 kB)",
+      "http://mimg.127.net/p/js6/6.0b1702081428/js/p1.js (gzip: 66.22 kB / uncompressed: 66.22 kB)",
+      "http://mail.163.com/ (gzip: 54.42 kB / uncompressed: 54.42 kB)",
+      "http://mail.163.com/ (gzip: 54.43 kB / uncompressed: 54.43 kB)",
+      "http://ir3.mail.163.com/get.do?prod=wmail_lbp&ver=1&uid=nt@163.com&domain=163.com&mobUser=0&callback=themeHandler.callback&rnd=0.6843259192537516 (gzip: 33.07 kB / uncompressed: 33.07 kB)",
+      "https://ursdoccdn.nosdn.127.net/m163_1.0.1/pp_index_dl_34ff92a1003683ec4ba864a1887a812c.js (gzip: 43.57 kB / uncompressed: 43.57 kB)",
+      "https://dl.reg.163.com/ini?pd=mail163&pkid=CvViHzl&pkht=mail.163.com&topURL=&nocache=1490191304205 (gzip: 0.04 kB / uncompressed: 0.04 kB)",
+      "http://mimg.127.net/p/js6/6.0b1702081428/css/base64_compress.css (gzip: 96.63 kB / uncompressed: 96.63 kB)",
+      "http://mimg.127.net/p/js6/6.0b1702081428/js/p0.js (gzip: 104.52 kB / uncompressed: 104.52 kB)",
+      "http://mimg.127.net/p/js6/6.0b1702081428/js/p1.js (gzip: 60.27 kB / uncompressed: 60.27 kB)",
+      "http://mail.163.com/ (gzip: 54.39 kB / uncompressed: 54.39 kB)",
+      "http://mail.163.com/ (gzip: 54.40 kB / uncompressed: 54.40 kB)",
+      "http://ir3.mail.163.com/get.do?prod=wmail_lbp&ver=1&uid=nt@163.com&domain=163.com&mobUser=0&callback=themeHandler.callback&rnd=0.13745637913234532 (gzip: 33.07 kB / uncompressed: 33.07 kB)",
+      "https://ursdoccdn.nosdn.127.net/m163_1.0.1/pp_index_dl_34ff92a1003683ec4ba864a1887a812c.js (gzip: 47.95 kB / uncompressed: 47.95 kB)",
+      "https://dl.reg.163.com/ini?pd=mail163&pkid=CvViHzl&pkht=mail.163.com&topURL=&nocache=1490191304367 (gzip: 0.04 kB / uncompressed: 0.04 kB)",
+      "http://mimg.127.net/p/js6/6.0b1702081428/css/base64_compress.css (gzip: 56.81 kB / uncompressed: 56.81 kB)",
+      "http://mimg.127.net/p/js6/6.0b1702081428/js/p0.js (gzip: 51.18 kB / uncompressed: 51.18 kB)",
+      "http://mimg.127.net/p/js6/6.0b1702081428/js/p1.js (gzip: 125.71 kB / uncompressed: 125.71 kB)"
+    ],
+    "httpsRequests": [
+      "https://dl.reg.163.com/webzj/m163_1.0.1/pub/index_dl.html?wdaId=",
+      "https://ursdoccdn.nosdn.127.net/m163_1.0.1/pp_index_dl_34ff92a1003683ec4ba864a1887a812c.js",
+      "https://dl.reg.163.com/ini?pd=mail163&pkid=CvViHzl&pkht=mail.163.com&topURL=&nocache=1490191304360",
+      "https://mimg.127.net/index/126/img/2013/bg_v3.png",
+      "https://mimg.127.net/index/163/img/2013/bg_v3.png",
+      "https://webzj.reg.163.com/UA1435545636633/__utm.gif?configlog=1&from=&config=%7B%22product%22%3A%22mail163%22%2C%22promark%22%3A%22CvViHzl%22%2C%22focusHelper%22%3A1%2C%22host%22%3A%22mail.163.com%22%2C%22domains%22%3A%22163.com%22%2C%22includeBox%22%3A%22loginDiv%22%2C%22skin%22%3A%220%22%2C%22isHttps%22%3A1%2C%22page%22%3A%22login%22%2C%22prdomain%22%3A%22%40163.com%22%2C%22placeholder%22%3A%7B%22account%22%3A%22%E9%82%AE%E7%AE%B1%E5%B8%90%E5%8F%B7%E6%88%96%E6%89%8B%E6%9C%BA%E5%8F%B7%22%2C%22pwd%22%3A%22%E5%AF%86%E7%A0%81%22%7D%2C%22needUnLogin%22%3A1%2C%22regUrl%22%3A%22http%3A%2F%2Freg.email.163.com%2FmailregAll%2Freg0.jsp%3Ffrom%3D163mail_right%22%2C%22notFastReg%22%3A0%2C%22single%22%3A1%2C%22errMode%22%3A1%2C%22frameSize%22%3A%7B%22width%22%3A295%2C%22height%22%3A413%7D%2C%22nocover%22%3A1%2C%22from%22%3A%22URS%7C%22%7D",
+      "https://dl.reg.163.com/ini?pd=mail163&pkid=CvViHzl&pkht=mail.163.com&topURL=&nocache=1490191304236",
+      "https://dl.reg.163.com/ini?pd=mail163&pkid=CvViHzl&pkht=mail.163.com&topURL=&nocache=1490191304200",
+      "https://dl.reg.163.com/ini?pd=mail163&pkid=CvViHzl&pkht=mail.163.com&topURL=&nocache=1490191304205",
+      "https://dl.reg.163.com/ini?pd=mail163&pkid=CvViHzl&pkht=mail.163.com&topURL=&nocache=1490191304367"
+    ],
+    "htmlCount": [
+      "http://mail.163.com/ (71.81 kB)",
+      "http://mail.163.com/ (71.36 kB)",
+      "https://dl.reg.163.com/webzj/m163_1.0.1/pub/index_dl.html?wdaId= (58.25 kB)",
+      "http://mail.163.com/preload6.htm (13.05 kB)",
+      "http://mail.163.com/ (56.02 kB)",
+      "http://mail.163.com/ (99.72 kB)",
+      "http://mail.163.com/ (54.42 kB)",
+      "http://mail.163.com/ (54.43 kB)",
+      "http://mail.163.com/ (54.39 kB)",
+      "http://mail.163.com/ (54.40 kB)"
+    ],
+    "cssCount": [
+      "http://mimg.127.net/p/js6/6.0b1702081428/css/base64_compress.css (53.76 kB)",
+      "http://mimg.127.net/p/js6/6.0b1702081428/css/base64_compress.css (59.28 kB)",
+      "http://mimg.127.net/p/js6/6.0b1702081428/css/base64_compress.css (56.42 kB)",
+      "http://mimg.127.net/p/js6/6.0b1702081428/css/base64_compress.css (96.63 kB)",
+      "http://mimg.127.net/p/js6/6.0b1702081428/css/base64_compress.css (56.81 kB)"
+    ],
+    "jsCount": [
+      "http://ursdoccdn.nosdn.127.net/webzj_m163/message_2016072801.js (15.94 kB)",
+      "http://mimg.127.net/copyright/year.js (0.02 kB)",
+      "http://mimg.127.net/index/lib/scripts/base_v6_0_5.min.js (16.54 kB)",
+      "https://ursdoccdn.nosdn.127.net/m163_1.0.1/pp_index_dl_34ff92a1003683ec4ba864a1887a812c.js (47.96 kB)",
+      "http://mimg.127.net/m/ir/8/bLoginTpl.js (3.24 kB)",
+      "http://mimg.127.net/p/bjs/release/bjs-1.0.43.js (47.33 kB)",
+      "http://mimg.127.net/p/js6/6.0b1702081428/js/p0.js (54.06 kB)",
+      "http://mimg.127.net/p/js6/6.0b1702081428/js/p1.js (102.47 kB)",
+      "http://mimg.127.net/p/bjs/release/bjs-1.0.43.js (45.43 kB)",
+      "http://mimg.127.net/p/js6/6.0b1702081428/js/p0.js (55.45 kB)",
+      "http://mimg.127.net/p/js6/6.0b1702081428/js/p1.js (60.99 kB)",
+      "http://mimg.127.net/p/bjs/release/bjs-1.0.43.js (68.16 kB)",
+      "http://mimg.127.net/p/js6/6.0b1702081428/js/p0.js (48.95 kB)",
+      "http://mimg.127.net/p/js6/6.0b1702081428/js/p1.js (66.22 kB)",
+      "https://ursdoccdn.nosdn.127.net/m163_1.0.1/pp_index_dl_34ff92a1003683ec4ba864a1887a812c.js (43.57 kB)",
+      "http://mimg.127.net/p/js6/6.0b1702081428/js/p0.js (104.52 kB)",
+      "http://mimg.127.net/p/js6/6.0b1702081428/js/p1.js (60.27 kB)",
+      "https://ursdoccdn.nosdn.127.net/m163_1.0.1/pp_index_dl_34ff92a1003683ec4ba864a1887a812c.js (47.95 kB)",
+      "http://mimg.127.net/p/js6/6.0b1702081428/js/p0.js (51.18 kB)",
+      "http://mimg.127.net/p/js6/6.0b1702081428/js/p1.js (125.71 kB)"
+    ],
+    "jsonCount": [
+      "http://ir3.mail.163.com/get.do?prod=wmail_lbp&ver=1&uid=nt@163.com&domain=163.com&mobUser=0&callback=themeHandler.callback&rnd=0.487019615015015 (33.07 kB)",
+      "https://dl.reg.163.com/ini?pd=mail163&pkid=CvViHzl&pkht=mail.163.com&topURL=&nocache=1490191304360 (0.04 kB)",
+      "http://ir.mail.163.com/get.do?uid=nt@163.com&domain=163.com&ver=4&ph=-1&callback=loginExtAD.callback&rnd=0.7595688521396369 (0.76 kB)",
+      "http://ir3.mail.163.com/get.do?prod=wmail_lbp&ver=1&uid=nt@163.com&domain=163.com&mobUser=0&callback=themeHandler.callback&rnd=0.039893451845273376 (33.07 kB)",
+      "https://dl.reg.163.com/ini?pd=mail163&pkid=CvViHzl&pkht=mail.163.com&topURL=&nocache=1490191304236 (0.04 kB)",
+      "http://ir.mail.163.com/get.do?uid=nt@163.com&domain=163.com&ver=4&ph=-1&callback=loginExtAD.callback&rnd=0.37915327842347324 (0.76 kB)",
+      "http://ir3.mail.163.com/get.do?prod=wmail_lbp&ver=1&uid=nt@163.com&domain=163.com&mobUser=0&callback=themeHandler.callback&rnd=0.8681109824683517 (33.07 kB)",
+      "https://dl.reg.163.com/ini?pd=mail163&pkid=CvViHzl&pkht=mail.163.com&topURL=&nocache=1490191304200 (0.04 kB)",
+      "http://ir.mail.163.com/get.do?uid=nt@163.com&domain=163.com&ver=4&ph=-1&callback=loginExtAD.callback&rnd=0.1334701399318874 (0.76 kB)",
+      "http://ir3.mail.163.com/get.do?prod=wmail_lbp&ver=1&uid=nt@163.com&domain=163.com&mobUser=0&callback=themeHandler.callback&rnd=0.6843259192537516 (33.07 kB)",
+      "https://dl.reg.163.com/ini?pd=mail163&pkid=CvViHzl&pkht=mail.163.com&topURL=&nocache=1490191304205 (0.04 kB)",
+      "http://ir.mail.163.com/get.do?uid=nt@163.com&domain=163.com&ver=4&ph=-1&callback=loginExtAD.callback&rnd=0.8191049071028829 (0.77 kB)",
+      "http://ir3.mail.163.com/get.do?prod=wmail_lbp&ver=1&uid=nt@163.com&domain=163.com&mobUser=0&callback=themeHandler.callback&rnd=0.13745637913234532 (33.07 kB)",
+      "https://dl.reg.163.com/ini?pd=mail163&pkid=CvViHzl&pkht=mail.163.com&topURL=&nocache=1490191304367 (0.04 kB)",
+      "http://ir.mail.163.com/get.do?uid=nt@163.com&domain=163.com&ver=4&ph=-1&callback=loginExtAD.callback&rnd=0.6646455049049109 (0.77 kB)"
+    ],
+    "imageCount": [
+      "http://mimg.127.net/logo/163logo.gif (6.51 kB)",
+      "http://mimg.127.net/index/163/img/2013/bg_v3.png (10.28 kB)",
+      "http://mimg.127.net/index/163/img/2013/login_v5.png (3.86 kB)",
+      "http://mimg.127.net/index/lib/img/applogin_dashi_pc.png (2.72 kB)",
+      "http://mimg.127.net/index/lib/img/loading_s.gif (0.56 kB)",
+      "http://mimg.127.net/ggimg/all/img19/ico_gg.png (0.40 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_16_117_1149&uid=nt@163.com&rnd=0.18339746678248048 (0.05 kB)",
+      "http://mimg.127.net/m/lc/img/LoginBackgroundPic/1149/0/promPic.jpg (127.64 kB)",
+      "http://mimg.127.net/index/lib/img/mailapp_logo_170104.png (3.67 kB)",
+      "https://mimg.127.net/index/126/img/2013/bg_v3.png (10.20 kB)",
+      "https://mimg.127.net/index/163/img/2013/bg_v3.png (10.28 kB)",
+      "https://webzj.reg.163.com/UA1435545636633/__utm.gif?configlog=1&from=&config=%7B%22product%22%3A%22mail163%22%2C%22promark%22%3A%22CvViHzl%22%2C%22focusHelper%22%3A1%2C%22host%22%3A%22mail.163.com%22%2C%22domains%22%3A%22163.com%22%2C%22includeBox%22%3A%22loginDiv%22%2C%22skin%22%3A%220%22%2C%22isHttps%22%3A1%2C%22page%22%3A%22login%22%2C%22prdomain%22%3A%22%40163.com%22%2C%22placeholder%22%3A%7B%22account%22%3A%22%E9%82%AE%E7%AE%B1%E5%B8%90%E5%8F%B7%E6%88%96%E6%89%8B%E6%9C%BA%E5%8F%B7%22%2C%22pwd%22%3A%22%E5%AF%86%E7%A0%81%22%7D%2C%22needUnLogin%22%3A1%2C%22regUrl%22%3A%22http%3A%2F%2Freg.email.163.com%2FmailregAll%2Freg0.jsp%3Ffrom%3D163mail_right%22%2C%22notFastReg%22%3A0%2C%22single%22%3A1%2C%22errMode%22%3A1%2C%22frameSize%22%3A%7B%22width%22%3A295%2C%22height%22%3A413%7D%2C%22nocover%22%3A1%2C%22from%22%3A%22URS%7C%22%7D (0.00 kB)",
+      "http://mimg.127.net/logo/knet.png (4.50 kB)",
+      "http://mimg.127.net/index/lib/img/icon_code.png (0.22 kB)",
+      "http://mimg.127.net/logo/netease_logo.gif (1.23 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_43_19&rnd=1490191302564&uid=nt@163.com (0.05 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_117_84&rnd=1490191302564&uid=nt@163.com (0.05 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_16_117_1149&uid=nt@163.com&rnd=0.7291533930692822 (0.05 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_43_19&rnd=1490191302414&uid=nt@163.com (0.05 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_117_84&rnd=1490191302414&uid=nt@163.com (0.05 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_16_117_1149&uid=nt@163.com&rnd=0.507231647381559 (0.05 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_43_19&rnd=1490191302232&uid=nt@163.com (0.05 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_117_84&rnd=1490191302232&uid=nt@163.com (0.05 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_16_117_1149&uid=nt@163.com&rnd=0.5863471482880414 (0.05 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_43_19&rnd=1490191302631&uid=nt@163.com (0.05 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_136_118&rnd=1490191302631&uid=nt@163.com (0.05 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_16_117_1149&uid=nt@163.com&rnd=0.6971485088579357 (0.05 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_43_19&rnd=1490191302677&uid=nt@163.com (0.05 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_136_118&rnd=1490191302677&uid=nt@163.com (0.05 kB)"
+    ],
+    "otherCount": [
+      "http://iplocator.mail.163.com/iplocator?callback=fGetLocator (0.19 kB)",
+      "http://ep.127.net/cte/etest?1490191305450 (0.01 kB)",
+      "http://tp.127.net/cte/ttest?1490191305447 (0.01 kB)",
+      "http://cp.127.net/cte/ctest?1490191305449 (0.01 kB)",
+      "http://ep.127.net/cte/ep?1490191305753 (0.01 kB)",
+      "http://tp.127.net/cte/tp?1490191305757 (0.01 kB)",
+      "http://cp.127.net/cte/cp?1490191305757 (0.01 kB)",
+      "http://hzp.127.net/cte/hztest?1490191305245 (0.01 kB)",
+      "http://hzp.127.net/cte/hzp?1490191305307 (0.01 kB)",
+      "http://ep.127.net/cte/etest?1490191305249 (0.01 kB)",
+      "http://ep.127.net/cte/ep?1490191305373 (0.01 kB)",
+      "http://tp.127.net/cte/ttest?1490191305246 (0.01 kB)",
+      "http://cp.127.net/cte/ctest?1490191305248 (0.01 kB)",
+      "http://tp.127.net/cte/tp?1490191305589 (0.01 kB)",
+      "http://cp.127.net/cte/cp?1490191305589 (0.01 kB)",
+      "http://ep.127.net/cte/etest?1490191305472 (0.01 kB)",
+      "http://ep.127.net/cte/ep?1490191305592 (0.01 kB)",
+      "http://tp.127.net/cte/ttest?1490191305471 (0.01 kB)",
+      "http://tp.127.net/cte/tp?1490191305750 (0.01 kB)",
+      "http://cp.127.net/cte/ctest?1490191305472 (0.01 kB)",
+      "http://cp.127.net/cte/cp?1490191314754 (0.01 kB)",
+      "http://ep.127.net/cte/etest?1490191305597 (0.01 kB)",
+      "http://ep.127.net/cte/ep?1490191305712 (0.01 kB)",
+      "http://tp.127.net/cte/ttest?1490191305596 (0.01 kB)",
+      "http://cp.127.net/cte/ctest?1490191305596 (0.01 kB)",
+      "http://tp.127.net/cte/tp?1490191305897 (0.01 kB)",
+      "http://cp.127.net/cte/cp?1490191305898 (0.01 kB)"
+    ],
+    "cacheHits": [
+      "http://ursdoccdn.nosdn.127.net/webzj_m163/message_2016072801.js",
+      "http://mail.163.com/",
+      "http://mimg.127.net/logo/163logo.gif",
+      "http://mimg.127.net/copyright/year.js",
+      "http://mimg.127.net/index/lib/scripts/base_v6_0_5.min.js",
+      "http://mimg.127.net/index/163/img/2013/bg_v3.png",
+      "http://mimg.127.net/index/163/img/2013/login_v5.png",
+      "http://mimg.127.net/index/lib/img/applogin_dashi_pc.png",
+      "http://mimg.127.net/index/lib/img/loading_s.gif",
+      "http://mimg.127.net/ggimg/all/img19/ico_gg.png",
+      "http://mimg.127.net/m/lc/img/LoginBackgroundPic/1149/0/promPic.jpg",
+      "http://mimg.127.net/index/lib/img/mailapp_logo_170104.png",
+      "https://ursdoccdn.nosdn.127.net/m163_1.0.1/pp_index_dl_34ff92a1003683ec4ba864a1887a812c.js",
+      "https://mimg.127.net/index/126/img/2013/bg_v3.png",
+      "https://mimg.127.net/index/163/img/2013/bg_v3.png",
+      "http://mimg.127.net/logo/knet.png",
+      "http://mimg.127.net/index/lib/img/icon_code.png",
+      "http://mimg.127.net/logo/netease_logo.gif",
+      "http://mail.163.com/preload6.htm",
+      "http://mimg.127.net/m/ir/8/bLoginTpl.js",
+      "http://mimg.127.net/p/bjs/release/bjs-1.0.43.js",
+      "http://mimg.127.net/p/js6/6.0b1702081428/js/p0.js",
+      "http://mimg.127.net/p/js6/6.0b1702081428/css/base64_compress.css",
+      "http://mimg.127.net/p/js6/6.0b1702081428/js/p1.js"
+    ],
+    "cachingNotSpecified": [
+      "http://ursdoccdn.nosdn.127.net/webzj_m163/message_2016072801.js",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_16_117_1149&uid=nt@163.com&rnd=0.18339746678248048",
+      "https://ursdoccdn.nosdn.127.net/m163_1.0.1/pp_index_dl_34ff92a1003683ec4ba864a1887a812c.js",
+      "https://webzj.reg.163.com/UA1435545636633/__utm.gif?configlog=1&from=&config=%7B%22product%22%3A%22mail163%22%2C%22promark%22%3A%22CvViHzl%22%2C%22focusHelper%22%3A1%2C%22host%22%3A%22mail.163.com%22%2C%22domains%22%3A%22163.com%22%2C%22includeBox%22%3A%22loginDiv%22%2C%22skin%22%3A%220%22%2C%22isHttps%22%3A1%2C%22page%22%3A%22login%22%2C%22prdomain%22%3A%22%40163.com%22%2C%22placeholder%22%3A%7B%22account%22%3A%22%E9%82%AE%E7%AE%B1%E5%B8%90%E5%8F%B7%E6%88%96%E6%89%8B%E6%9C%BA%E5%8F%B7%22%2C%22pwd%22%3A%22%E5%AF%86%E7%A0%81%22%7D%2C%22needUnLogin%22%3A1%2C%22regUrl%22%3A%22http%3A%2F%2Freg.email.163.com%2FmailregAll%2Freg0.jsp%3Ffrom%3D163mail_right%22%2C%22notFastReg%22%3A0%2C%22single%22%3A1%2C%22errMode%22%3A1%2C%22frameSize%22%3A%7B%22width%22%3A295%2C%22height%22%3A413%7D%2C%22nocover%22%3A1%2C%22from%22%3A%22URS%7C%22%7D",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_43_19&rnd=1490191302564&uid=nt@163.com",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_117_84&rnd=1490191302564&uid=nt@163.com",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_16_117_1149&uid=nt@163.com&rnd=0.7291533930692822",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_43_19&rnd=1490191302414&uid=nt@163.com",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_117_84&rnd=1490191302414&uid=nt@163.com",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_16_117_1149&uid=nt@163.com&rnd=0.507231647381559",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_43_19&rnd=1490191302232&uid=nt@163.com",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_117_84&rnd=1490191302232&uid=nt@163.com",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_16_117_1149&uid=nt@163.com&rnd=0.5863471482880414",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_43_19&rnd=1490191302631&uid=nt@163.com",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_136_118&rnd=1490191302631&uid=nt@163.com",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_16_117_1149&uid=nt@163.com&rnd=0.6971485088579357",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_43_19&rnd=1490191302677&uid=nt@163.com",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_136_118&rnd=1490191302677&uid=nt@163.com"
+    ],
+    "cachingTooShort": [
+      "http://mimg.127.net/logo/163logo.gif cached for 3600 s",
+      "http://mimg.127.net/index/lib/scripts/base_v6_0_5.min.js cached for 3600 s",
+      "http://mimg.127.net/index/163/img/2013/bg_v3.png cached for 3600 s",
+      "http://mimg.127.net/index/163/img/2013/login_v5.png cached for 3600 s",
+      "http://mimg.127.net/index/lib/img/applogin_dashi_pc.png cached for 3600 s",
+      "http://mimg.127.net/index/lib/img/loading_s.gif cached for 3600 s",
+      "http://mimg.127.net/m/lc/img/LoginBackgroundPic/1149/0/promPic.jpg cached for 3600 s",
+      "http://mimg.127.net/index/lib/img/mailapp_logo_170104.png cached for 3600 s",
+      "https://mimg.127.net/index/126/img/2013/bg_v3.png cached for 3600 s",
+      "https://mimg.127.net/index/163/img/2013/bg_v3.png cached for 3600 s",
+      "http://mimg.127.net/logo/knet.png cached for 3600 s",
+      "http://mimg.127.net/index/lib/img/icon_code.png cached for 3600 s",
+      "http://mimg.127.net/logo/netease_logo.gif cached for 3600 s",
+      "http://mimg.127.net/m/ir/8/bLoginTpl.js cached for 3600 s"
+    ],
+    "oldCachingHeaders": [
+      "http://mail.163.com/ - Expires: Wed, 22 Mar 2017 14:55:25 GMT",
+      "http://mimg.127.net/logo/163logo.gif - Expires: Wed, 22 Mar 2017 14:57:47 GMT",
+      "http://mimg.127.net/copyright/year.js - Expires: Sun, 31 Dec 2017 16:12:49 GMT",
+      "http://mimg.127.net/index/lib/scripts/base_v6_0_5.min.js - Expires: Wed, 22 Mar 2017 14:49:26 GMT",
+      "http://mimg.127.net/index/163/img/2013/bg_v3.png - Expires: Wed, 22 Mar 2017 14:45:08 GMT",
+      "http://mimg.127.net/index/163/img/2013/login_v5.png - Expires: Wed, 22 Mar 2017 14:08:01 GMT",
+      "http://mimg.127.net/index/lib/img/applogin_dashi_pc.png - Expires: Wed, 22 Mar 2017 14:08:19 GMT",
+      "http://mimg.127.net/index/lib/img/loading_s.gif - Expires: Wed, 22 Mar 2017 15:00:43 GMT",
+      "http://mimg.127.net/ggimg/all/img19/ico_gg.png - Expires: Sun, 20 Sep 2026 02:23:43 GMT",
+      "http://mimg.127.net/m/lc/img/LoginBackgroundPic/1149/0/promPic.jpg - Expires: Wed, 22 Mar 2017 14:39:14 GMT",
+      "http://mimg.127.net/index/lib/img/mailapp_logo_170104.png - Expires: Wed, 22 Mar 2017 15:00:52 GMT",
+      "https://mimg.127.net/index/126/img/2013/bg_v3.png - Expires: Wed, 22 Mar 2017 14:24:58 GMT",
+      "https://mimg.127.net/index/163/img/2013/bg_v3.png - Expires: Wed, 22 Mar 2017 14:16:37 GMT",
+      "http://mimg.127.net/logo/knet.png - Expires: Wed, 22 Mar 2017 14:15:49 GMT",
+      "http://mimg.127.net/index/lib/img/icon_code.png - Expires: Wed, 22 Mar 2017 15:00:36 GMT",
+      "http://mimg.127.net/logo/netease_logo.gif - Expires: Wed, 22 Mar 2017 14:53:10 GMT",
+      "http://mail.163.com/preload6.htm - Expires: Wed, 22 Mar 2017 15:01:37 GMT",
+      "http://mimg.127.net/m/ir/8/bLoginTpl.js - Expires: Wed, 22 Mar 2017 14:56:11 GMT",
+      "http://mimg.127.net/p/bjs/release/bjs-1.0.43.js - Expires: Thu, 29 Oct 2026 23:21:07 GMT",
+      "http://mimg.127.net/p/js6/6.0b1702081428/js/p0.js - Expires: Sat, 06 Feb 2027 08:42:16 GMT",
+      "http://mimg.127.net/p/js6/6.0b1702081428/css/base64_compress.css - Expires: Sat, 06 Feb 2027 08:42:16 GMT",
+      "http://mimg.127.net/p/js6/6.0b1702081428/js/p1.js - Expires: Sat, 06 Feb 2027 08:42:16 GMT",
+      "https://mimg.127.net/index/163/img/2013/bg_v3.png - Expires: Wed, 22 Mar 2017 14:19:06 GMT",
+      "http://mail.163.com/preload6.htm - Expires: Wed, 22 Mar 2017 14:05:01 GMT",
+      "http://hzp.127.net/cte/hztest?1490191305245 - Expires: Wed, 22 Mar 2017 15:01:42 GMT",
+      "http://hzp.127.net/cte/hzp?1490191305307 - Expires: Wed, 22 Mar 2017 15:01:42 GMT",
+      "https://mimg.127.net/index/126/img/2013/bg_v3.png - Expires: Wed, 22 Mar 2017 15:01:41 GMT",
+      "https://mimg.127.net/index/163/img/2013/bg_v3.png - Expires: Wed, 22 Mar 2017 14:15:55 GMT",
+      "https://mimg.127.net/index/126/img/2013/bg_v3.png - Expires: Wed, 22 Mar 2017 14:41:39 GMT",
+      "https://mimg.127.net/index/163/img/2013/bg_v3.png - Expires: Wed, 22 Mar 2017 14:10:44 GMT",
+      "http://mail.163.com/ - Expires: Wed, 22 Mar 2017 14:57:08 GMT"
+    ],
+    "domainsWithCookies": [
+      "dl.reg.163.com: 1 cookie(s)"
+    ],
+    "domains": [
+      "mimg.127.net: 20 request(s)",
+      "mail.163.com: 4 request(s)",
+      "irpmt.mail.163.com: 3 request(s)",
+      "ursdoccdn.nosdn.127.net: 2 request(s)",
+      "dl.reg.163.com: 2 request(s)",
+      "ep.127.net: 2 request(s)",
+      "tp.127.net: 2 request(s)",
+      "cp.127.net: 2 request(s)",
+      "ir3.mail.163.com: 1 request(s)",
+      "webzj.reg.163.com: 1 request(s)",
+      "iplocator.mail.163.com: 1 request(s)",
+      "ir.mail.163.com: 1 request(s)",
+      "hzp.127.net: 2 request(s)"
+    ],
+    "commentsSize": [
+      "body > header.header > nav.headerNav > #comment[9] (186 characters)",
+      "body > header.header > nav.headerNav > #comment[11] (71 characters)",
+      "body > header.header > nav.headerNav > #comment[23] (72 characters)",
+      "body > #comment[27] (252 characters)",
+      "body > #comment[37] (106 characters)",
+      "body > #comment[74] (172 characters)",
+      "body > #comment[88] (104 characters)"
+    ],
+    "hiddenContentSize": [
+      "body > section#mainBg > div#loginBlock > div#appLoginTab (1964 characters)",
+      "body > section#mainBg > div#loginBlock > div#normalLoginTab > div.loginWrap > div.loginFormConf > div#locationTest (1077 characters)"
+    ],
+    "nodesWithInlineCSS": [
+      "body > section#mainBg (background-color: rgb(227, 227, 227); )",
+      "body > section#mainBg > div#mainCnt (background-image: url(http://mimg.127.net/m/lc/img/LoginBackgroundPic/1149/0/promPic.jpg); )",
+      "body > section#mainBg > div#mainCnt > div#theme ()",
+      "body > section#mainBg > div#mainCnt > div#theme > a[0] (position: absolute; width: 605px; height: 600px; left: 0px; top: 0px; cursor: pointer; )",
+      "body > section#mainBg > div#mainCnt > div.themeCtrl > a#prevTheme (display: block; )",
+      "body > section#mainBg > div#mainCnt > div.themeCtrl > a#nextTheme (display: block; )",
+      "body > section#mainBg > div#mainCnt > img#adtag (position: absolute; left: 50%; bottom: 4px; margin-left: -450px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; )",
+      "body > section#mainBg > div#loginBlock > div.loginFunc > div#lbApp (background-image: url(http://mimg.127.net/index/lib/img/icon_code.png); background-attachment: initial; background-origin: initial; background-clip: initial; background-color: initial; background-position: 28px 17px; background-repeat: no-repeat no-repeat; )",
+      "body > section#mainBg > div#loginBlock > div#normalLoginTab > div.loginWrap > div#loginDiv (width: 294px; height: 412px; )",
+      "body > section#mainBg > div#loginBlock > div#normalLoginTab > div.loginWrap > div#loginDiv > iframe#x-URS-iframe (width: 100%; height: 100%; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; border-width: initial; border-color: initial; background-image: none; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: initial; background-position: initial initial; background-repeat: initial initial; )",
+      "body > section#mainBg > div#loginBlock > div#normalLoginTab > div.loginWrap > div.loginFormConf > div#loginSSL (display: block; )",
+      "body > section#mainBg > div#loginBlock > div#normalLoginTab > div.loginWrap > div.mailApp > a#mailAppLogo (background-image: url(http://mimg.127.net/index/lib/img/mailapp_logo_170104.png); background-attachment: initial; background-origin: initial; background-clip: initial; background-color: initial; background-position: initial initial; background-repeat: no-repeat no-repeat; )",
+      "body > section#mainBg > div#loginBlock > div#normalLoginTab > div#loginExt > ul#extText > li.ext-1 > a[1] ()",
+      "body > section#mainBg > div#loginBlock > div#normalLoginTab > div#loginExt > ul#extText > li.ext-1 > a[1] > span[0] (color:#e60d40;)",
+      "body > section#mainBg > div#loginBlock > div#normalLoginTab > div#loginExt > ul#extText > li.ext-1 > img[3] (position:absolute;z-index:0;right:0;width:1px;height:1px;)",
+      "body > section#mainBg > div#loginBlock > div#normalLoginTab > div#loginExt > ul#extText > li.ext-2 > a[1] ()",
+      "body > section#mainBg > div#loginBlock > div#normalLoginTab > div#loginExt > ul#extText > li.ext-2 > img[3] (position:absolute;z-index:0;right:0;width:1px;height:1px;)",
+      "body > footer#footer > div#footerInner > a#footer163Logo (display: block; )",
+      "body > footer#footer > div#footerInner > a#KX_IMG (position: absolute; right: 50px; top: 36px; display: block; )",
+      "body > footer#footer > div#footerInner > nav.footerNav > a[11] (margin-right:10px)",
+      "body > div[43] > form#login163 ( width: 0; height: 0;)",
+      "body > div[43] > iframe#frameforlogin (overflow:hidden;border:0; width: 0; height: 0;)",
+      "body > div#x-URS (display: block; )",
+      "body > img#AD__IMG (position: absolute; left: -100px; top: -100px; )",
+      "body > section#mainBg > div#loginBlock > div#normalLoginTab > div.loginWrap > div#loginDiv (width: 295px; height: 413px; )"
+    ],
+    "DOMqueriesDuplicated": [
+      "id \"#x-URS-iframe\": 8 queries",
+      "id \"#lbApp\": 2 queries",
+      "id \"#styleConfBlock\": 2 queries",
+      "id \"#styleconf-1\": 2 queries",
+      "id \"#styleConf\": 2 queries",
+      "id \"#KX_IMG\": 2 queries",
+      "id \"#mainBg\": 2 queries",
+      "id \"#mainCnt\": 2 queries"
+    ],
+    "eventsBound": [
+      "\"message\" bound to \"window\"",
+      "\"resize\" bound to \"window\"",
+      "\"mouseover\" bound to \"body > section#mainBg > div#loginBlock > div.loginFunc > div#lbApp\"",
+      "\"mouseout\" bound to \"body > section#mainBg > div#loginBlock > div.loginFunc > div#lbApp\"",
+      "\"click\" bound to \"body > section#mainBg > div#loginBlock > div#normalLoginTab > div.loginWrap > div.loginFormConf > div.loginFormVer > a#styleConf\""
+    ],
+    "globalVariables": [
+      "fNetErrDebug",
+      "utf16to8",
+      "fCheckCookie",
+      "fEnData",
+      "fCheckBrowser",
+      "gbForcepc",
+      "gAdResData",
+      "fEventUnlisten",
+      "getRnd",
+      "fSpdUserInit",
+      "fSetCookie",
+      "loginRequest",
+      "fResize",
+      "fGetQuery",
+      "fSelectLoaction",
+      "fSpd",
+      "DOMREADY",
+      "gMobileNumMail",
+      "oSpdTestPosition",
+      "$id",
+      "fCheckAccount",
+      "gUserInfo",
+      "oStyle",
+      "fSpeedTestPre",
+      "fStartTime",
+      "aSpdEndTime",
+      "fSpeedTest",
+      "fRandom",
+      "aSpdQueue",
+      "fFQ",
+      "fUrlP",
+      "gOption",
+      "aSpdStartTime",
+      "base64encode",
+      "fGetLocator",
+      "fLocationChoose",
+      "fCls",
+      "base64EncodeChars",
+      "fParseMNum",
+      "fAutoLogin",
+      "aSpdResult",
+      "fGetQueryHash",
+      "fJSONP",
+      "sLocationInfo",
+      "fHtml5Tag",
+      "aSpdTmpTime",
+      "fGetCookie",
+      "fCheckLoginNow",
+      "fGetScript",
+      "fTrim",
+      "fLocationDot",
+      "URS_CONFIG",
+      "fSetLocation",
+      "aLocationDot",
+      "fCheckAutoLogin",
+      "fEventListen",
+      "bSpdAuto",
+      "oAndroidRedirect",
+      "gVisitorCookie",
+      "BrowserHelper",
+      "MailLogin",
+      "JSON3",
+      "URS",
+      "PTDOM",
+      "CapsLock",
+      "MobCallback",
+      "bGettingAlgorithm",
+      "loginExtAD",
+      "MailError",
+      "indexLogin",
+      "themeHandler",
+      "gAdTemplate_lbp",
+      "offset",
+      "bImgLoaderIsLoaded",
+      "gLocationProvince",
+      "gLocationCity",
+      "i",
+      "YayaTemplate",
+      "gAdTemplate"
+    ],
+    "globalVariablesFalsy": [
+      "gbForcepc = false",
+      "bGettingAlgorithm = false"
+    ],
+    "headersBiggerThanContent": [
+      "http://mimg.127.net/copyright/year.js (body: 0.02 kB / headers: 0.32 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_16_117_1149&uid=nt@163.com&rnd=0.18339746678248048 (body: 0.05 kB / headers: 0.18 kB)",
+      "https://dl.reg.163.com/ini?pd=mail163&pkid=CvViHzl&pkht=mail.163.com&topURL=&nocache=1490191304360 (body: 0.04 kB / headers: 0.57 kB)",
+      "https://webzj.reg.163.com/UA1435545636633/__utm.gif?configlog=1&from=&config=%7B%22product%22%3A%22mail163%22%2C%22promark%22%3A%22CvViHzl%22%2C%22focusHelper%22%3A1%2C%22host%22%3A%22mail.163.com%22%2C%22domains%22%3A%22163.com%22%2C%22includeBox%22%3A%22loginDiv%22%2C%22skin%22%3A%220%22%2C%22isHttps%22%3A1%2C%22page%22%3A%22login%22%2C%22prdomain%22%3A%22%40163.com%22%2C%22placeholder%22%3A%7B%22account%22%3A%22%E9%82%AE%E7%AE%B1%E5%B8%90%E5%8F%B7%E6%88%96%E6%89%8B%E6%9C%BA%E5%8F%B7%22%2C%22pwd%22%3A%22%E5%AF%86%E7%A0%81%22%7D%2C%22needUnLogin%22%3A1%2C%22regUrl%22%3A%22http%3A%2F%2Freg.email.163.com%2FmailregAll%2Freg0.jsp%3Ffrom%3D163mail_right%22%2C%22notFastReg%22%3A0%2C%22single%22%3A1%2C%22errMode%22%3A1%2C%22frameSize%22%3A%7B%22width%22%3A295%2C%22height%22%3A413%7D%2C%22nocover%22%3A1%2C%22from%22%3A%22URS%7C%22%7D (body: 0.00 kB / headers: 0.12 kB)",
+      "http://mimg.127.net/index/lib/img/icon_code.png (body: 0.22 kB / headers: 0.31 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_43_19&rnd=1490191302564&uid=nt@163.com (body: 0.05 kB / headers: 0.18 kB)",
+      "http://ep.127.net/cte/etest?1490191305450 (body: 0.01 kB / headers: 0.20 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_117_84&rnd=1490191302564&uid=nt@163.com (body: 0.05 kB / headers: 0.18 kB)",
+      "http://tp.127.net/cte/ttest?1490191305447 (body: 0.01 kB / headers: 0.20 kB)",
+      "http://cp.127.net/cte/ctest?1490191305449 (body: 0.01 kB / headers: 0.20 kB)",
+      "http://ep.127.net/cte/ep?1490191305753 (body: 0.01 kB / headers: 0.20 kB)",
+      "http://tp.127.net/cte/tp?1490191305757 (body: 0.01 kB / headers: 0.20 kB)",
+      "http://cp.127.net/cte/cp?1490191305757 (body: 0.01 kB / headers: 0.20 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_16_117_1149&uid=nt@163.com&rnd=0.7291533930692822 (body: 0.05 kB / headers: 0.18 kB)",
+      "https://dl.reg.163.com/ini?pd=mail163&pkid=CvViHzl&pkht=mail.163.com&topURL=&nocache=1490191304236 (body: 0.04 kB / headers: 0.57 kB)",
+      "http://hzp.127.net/cte/hztest?1490191305245 (body: 0.01 kB / headers: 0.29 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_43_19&rnd=1490191302414&uid=nt@163.com (body: 0.05 kB / headers: 0.18 kB)",
+      "http://hzp.127.net/cte/hzp?1490191305307 (body: 0.01 kB / headers: 0.29 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_117_84&rnd=1490191302414&uid=nt@163.com (body: 0.05 kB / headers: 0.18 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_16_117_1149&uid=nt@163.com&rnd=0.507231647381559 (body: 0.05 kB / headers: 0.18 kB)",
+      "https://dl.reg.163.com/ini?pd=mail163&pkid=CvViHzl&pkht=mail.163.com&topURL=&nocache=1490191304200 (body: 0.04 kB / headers: 0.57 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_43_19&rnd=1490191302232&uid=nt@163.com (body: 0.05 kB / headers: 0.18 kB)",
+      "http://ep.127.net/cte/etest?1490191305249 (body: 0.01 kB / headers: 0.20 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_117_84&rnd=1490191302232&uid=nt@163.com (body: 0.05 kB / headers: 0.18 kB)",
+      "http://ep.127.net/cte/ep?1490191305373 (body: 0.01 kB / headers: 0.20 kB)",
+      "http://tp.127.net/cte/ttest?1490191305246 (body: 0.01 kB / headers: 0.20 kB)",
+      "http://cp.127.net/cte/ctest?1490191305248 (body: 0.01 kB / headers: 0.20 kB)",
+      "http://tp.127.net/cte/tp?1490191305589 (body: 0.01 kB / headers: 0.20 kB)",
+      "http://cp.127.net/cte/cp?1490191305589 (body: 0.01 kB / headers: 0.20 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_16_117_1149&uid=nt@163.com&rnd=0.5863471482880414 (body: 0.05 kB / headers: 0.18 kB)",
+      "https://dl.reg.163.com/ini?pd=mail163&pkid=CvViHzl&pkht=mail.163.com&topURL=&nocache=1490191304205 (body: 0.04 kB / headers: 0.57 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_43_19&rnd=1490191302631&uid=nt@163.com (body: 0.05 kB / headers: 0.18 kB)",
+      "http://ep.127.net/cte/etest?1490191305472 (body: 0.01 kB / headers: 0.20 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_136_118&rnd=1490191302631&uid=nt@163.com (body: 0.05 kB / headers: 0.18 kB)",
+      "http://ep.127.net/cte/ep?1490191305592 (body: 0.01 kB / headers: 0.20 kB)",
+      "http://tp.127.net/cte/ttest?1490191305471 (body: 0.01 kB / headers: 0.20 kB)",
+      "http://tp.127.net/cte/tp?1490191305750 (body: 0.01 kB / headers: 0.20 kB)",
+      "http://cp.127.net/cte/ctest?1490191305472 (body: 0.01 kB / headers: 0.20 kB)",
+      "http://cp.127.net/cte/cp?1490191314754 (body: 0.01 kB / headers: 0.20 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_16_117_1149&uid=nt@163.com&rnd=0.6971485088579357 (body: 0.05 kB / headers: 0.18 kB)",
+      "https://dl.reg.163.com/ini?pd=mail163&pkid=CvViHzl&pkht=mail.163.com&topURL=&nocache=1490191304367 (body: 0.04 kB / headers: 0.57 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_43_19&rnd=1490191302677&uid=nt@163.com (body: 0.05 kB / headers: 0.18 kB)",
+      "http://ep.127.net/cte/etest?1490191305597 (body: 0.01 kB / headers: 0.20 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_136_118&rnd=1490191302677&uid=nt@163.com (body: 0.05 kB / headers: 0.18 kB)",
+      "http://ep.127.net/cte/ep?1490191305712 (body: 0.01 kB / headers: 0.20 kB)",
+      "http://tp.127.net/cte/ttest?1490191305596 (body: 0.01 kB / headers: 0.20 kB)",
+      "http://cp.127.net/cte/ctest?1490191305596 (body: 0.01 kB / headers: 0.20 kB)",
+      "http://tp.127.net/cte/tp?1490191305897 (body: 0.01 kB / headers: 0.20 kB)",
+      "http://cp.127.net/cte/cp?1490191305898 (body: 0.01 kB / headers: 0.20 kB)"
+    ],
+    "jsErrors": [
+      "TypeError: 'undefined' is not an object (evaluating 'a.Ext.read_noSsidRead') - unknown fn: http://mimg.127.net/p/js6/6.0b1702081428/js/p1.js @ 22 / unknown fn: http://mimg.127.net/p/js6/6.0b1702081428/js/p1.js @ 22"
+    ],
+    "assetsNotGzipped": [
+      "http://mimg.127.net/copyright/year.js (JS)"
+    ],
+    "assetsWithQueryString": [
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_16_117_1149&uid=nt@163.com&rnd=0.18339746678248048 (IMAGE)",
+      "https://webzj.reg.163.com/UA1435545636633/__utm.gif?configlog=1&from=&config=%7B%22product%22%3A%22mail163%22%2C%22promark%22%3A%22CvViHzl%22%2C%22focusHelper%22%3A1%2C%22host%22%3A%22mail.163.com%22%2C%22domains%22%3A%22163.com%22%2C%22includeBox%22%3A%22loginDiv%22%2C%22skin%22%3A%220%22%2C%22isHttps%22%3A1%2C%22page%22%3A%22login%22%2C%22prdomain%22%3A%22%40163.com%22%2C%22placeholder%22%3A%7B%22account%22%3A%22%E9%82%AE%E7%AE%B1%E5%B8%90%E5%8F%B7%E6%88%96%E6%89%8B%E6%9C%BA%E5%8F%B7%22%2C%22pwd%22%3A%22%E5%AF%86%E7%A0%81%22%7D%2C%22needUnLogin%22%3A1%2C%22regUrl%22%3A%22http%3A%2F%2Freg.email.163.com%2FmailregAll%2Freg0.jsp%3Ffrom%3D163mail_right%22%2C%22notFastReg%22%3A0%2C%22single%22%3A1%2C%22errMode%22%3A1%2C%22frameSize%22%3A%7B%22width%22%3A295%2C%22height%22%3A413%7D%2C%22nocover%22%3A1%2C%22from%22%3A%22URS%7C%22%7D (IMAGE)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_43_19&rnd=1490191302564&uid=nt@163.com (IMAGE)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_117_84&rnd=1490191302564&uid=nt@163.com (IMAGE)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_16_117_1149&uid=nt@163.com&rnd=0.7291533930692822 (IMAGE)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_43_19&rnd=1490191302414&uid=nt@163.com (IMAGE)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_117_84&rnd=1490191302414&uid=nt@163.com (IMAGE)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_16_117_1149&uid=nt@163.com&rnd=0.507231647381559 (IMAGE)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_43_19&rnd=1490191302232&uid=nt@163.com (IMAGE)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_117_84&rnd=1490191302232&uid=nt@163.com (IMAGE)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_16_117_1149&uid=nt@163.com&rnd=0.5863471482880414 (IMAGE)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_43_19&rnd=1490191302631&uid=nt@163.com (IMAGE)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_136_118&rnd=1490191302631&uid=nt@163.com (IMAGE)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_16_117_1149&uid=nt@163.com&rnd=0.6971485088579357 (IMAGE)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_43_19&rnd=1490191302677&uid=nt@163.com (IMAGE)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_136_118&rnd=1490191302677&uid=nt@163.com (IMAGE)"
+    ],
+    "smallImages": [
+      "http://mimg.127.net/index/lib/img/loading_s.gif (0.56 kB)",
+      "http://mimg.127.net/ggimg/all/img19/ico_gg.png (0.40 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_16_117_1149&uid=nt@163.com&rnd=0.18339746678248048 (0.05 kB)",
+      "https://webzj.reg.163.com/UA1435545636633/__utm.gif?configlog=1&from=&config=%7B%22product%22%3A%22mail163%22%2C%22promark%22%3A%22CvViHzl%22%2C%22focusHelper%22%3A1%2C%22host%22%3A%22mail.163.com%22%2C%22domains%22%3A%22163.com%22%2C%22includeBox%22%3A%22loginDiv%22%2C%22skin%22%3A%220%22%2C%22isHttps%22%3A1%2C%22page%22%3A%22login%22%2C%22prdomain%22%3A%22%40163.com%22%2C%22placeholder%22%3A%7B%22account%22%3A%22%E9%82%AE%E7%AE%B1%E5%B8%90%E5%8F%B7%E6%88%96%E6%89%8B%E6%9C%BA%E5%8F%B7%22%2C%22pwd%22%3A%22%E5%AF%86%E7%A0%81%22%7D%2C%22needUnLogin%22%3A1%2C%22regUrl%22%3A%22http%3A%2F%2Freg.email.163.com%2FmailregAll%2Freg0.jsp%3Ffrom%3D163mail_right%22%2C%22notFastReg%22%3A0%2C%22single%22%3A1%2C%22errMode%22%3A1%2C%22frameSize%22%3A%7B%22width%22%3A295%2C%22height%22%3A413%7D%2C%22nocover%22%3A1%2C%22from%22%3A%22URS%7C%22%7D (0.00 kB)",
+      "http://mimg.127.net/index/lib/img/icon_code.png (0.22 kB)",
+      "http://mimg.127.net/logo/netease_logo.gif (1.23 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_43_19&rnd=1490191302564&uid=nt@163.com (0.05 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_117_84&rnd=1490191302564&uid=nt@163.com (0.05 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_16_117_1149&uid=nt@163.com&rnd=0.7291533930692822 (0.05 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_43_19&rnd=1490191302414&uid=nt@163.com (0.05 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_117_84&rnd=1490191302414&uid=nt@163.com (0.05 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_16_117_1149&uid=nt@163.com&rnd=0.507231647381559 (0.05 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_43_19&rnd=1490191302232&uid=nt@163.com (0.05 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_117_84&rnd=1490191302232&uid=nt@163.com (0.05 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_16_117_1149&uid=nt@163.com&rnd=0.5863471482880414 (0.05 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_43_19&rnd=1490191302631&uid=nt@163.com (0.05 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_136_118&rnd=1490191302631&uid=nt@163.com (0.05 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_16_117_1149&uid=nt@163.com&rnd=0.6971485088579357 (0.05 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_43_19&rnd=1490191302677&uid=nt@163.com (0.05 kB)",
+      "http://irpmt.mail.163.com/ir/stat.gif?statId=1_7_136_118&rnd=1490191302677&uid=nt@163.com (0.05 kB)"
+    ],
+    "timeToFirstCss": [
+      "http://mimg.127.net/p/js6/6.0b1702081428/css/base64_compress.css received in 2787 ms",
+      "http://mimg.127.net/p/js6/6.0b1702081428/css/base64_compress.css received in 2674 ms",
+      "http://mimg.127.net/p/js6/6.0b1702081428/css/base64_compress.css received in 2684 ms",
+      "http://mimg.127.net/p/js6/6.0b1702081428/css/base64_compress.css received in 2875 ms",
+      "http://mimg.127.net/p/js6/6.0b1702081428/css/base64_compress.css received in 2911 ms"
+    ],
+    "timeToFirstJs": [
+      "http://ursdoccdn.nosdn.127.net/webzj_m163/message_2016072801.js received in 227 ms",
+      "http://ursdoccdn.nosdn.127.net/webzj_m163/message_2016072801.js received in 254 ms",
+      "http://ursdoccdn.nosdn.127.net/webzj_m163/message_2016072801.js received in 255 ms",
+      "http://ursdoccdn.nosdn.127.net/webzj_m163/message_2016072801.js received in 352 ms",
+      "http://ursdoccdn.nosdn.127.net/webzj_m163/message_2016072801.js received in 329 ms"
+    ],
+    "timeToFirstImage": [
+      "http://mimg.127.net/logo/163logo.gif received in 269 ms",
+      "http://mimg.127.net/logo/163logo.gif received in 298 ms",
+      "http://mimg.127.net/logo/163logo.gif received in 299 ms",
+      "http://mimg.127.net/logo/163logo.gif received in 396 ms",
+      "http://mimg.127.net/logo/163logo.gif received in 376 ms"
+    ],
+    "imagesWithoutDimensions": [
+      "body > header.header > h1.headerLogo > a[0] > img[0]",
+      "body > section#mainBg > div#loginBlock > div#appLoginTab > div#appLoginWait > div.appLogin-extend > img.appLogin-extend-aside",
+      "body > section#mainBg > div#loginBlock > div#normalLoginTab > div#loginExt > ul#extText > li.ext-1 > img[3]",
+      "body > section#mainBg > div#loginBlock > div#normalLoginTab > div#loginExt > ul#extText > li.ext-2 > img[3]",
+      "body > footer#footer > div#footerInner > a#footer163Logo > img#footer163LogoImg",
+      "body > footer#footer > div#footerInner > a#KX_IMG > img[1]"
+    ],
+    "smallestResponse": [
+      "https://webzj.reg.163.com/UA1435545636633/__utm.gif?configlog=1&from=&config=%7B%22product%22%3A%22mail163%22%2C%22promark%22%3A%22CvViHzl%22%2C%22focusHelper%22%3A1%2C%22host%22%3A%22mail.163.com%22%2C%22domains%22%3A%22163.com%22%2C%22includeBox%22%3A%22loginDiv%22%2C%22skin%22%3A%220%22%2C%22isHttps%22%3A1%2C%22page%22%3A%22login%22%2C%22prdomain%22%3A%22%40163.com%22%2C%22placeholder%22%3A%7B%22account%22%3A%22%E9%82%AE%E7%AE%B1%E5%B8%90%E5%8F%B7%E6%88%96%E6%89%8B%E6%9C%BA%E5%8F%B7%22%2C%22pwd%22%3A%22%E5%AF%86%E7%A0%81%22%7D%2C%22needUnLogin%22%3A1%2C%22regUrl%22%3A%22http%3A%2F%2Freg.email.163.com%2FmailregAll%2Freg0.jsp%3Ffrom%3D163mail_right%22%2C%22notFastReg%22%3A0%2C%22single%22%3A1%2C%22errMode%22%3A1%2C%22frameSize%22%3A%7B%22width%22%3A295%2C%22height%22%3A413%7D%2C%22nocover%22%3A1%2C%22from%22%3A%22URS%7C%22%7D (0.00 kB)"
+    ],
+    "biggestResponse": [
+      "http://mimg.127.net/m/lc/img/LoginBackgroundPic/1149/0/promPic.jpg (127.64 kB)"
+    ],
+    "fastestResponse": [
+      "http://ursdoccdn.nosdn.127.net/webzj_m163/message_2016072801.js (35 ms)",
+      "http://hzp.127.net/cte/hzp?1490191305307 (30 ms)",
+      "http://mimg.127.net/ggimg/all/img19/ico_gg.png (36 ms)",
+      "http://ursdoccdn.nosdn.127.net/webzj_m163/message_2016072801.js (33 ms)",
+      "http://ursdoccdn.nosdn.127.net/webzj_m163/message_2016072801.js (30 ms)"
+    ],
+    "slowestResponse": [
+      "https://dl.reg.163.com/webzj/m163_1.0.1/pub/index_dl.html?wdaId= (771 ms)",
+      "https://dl.reg.163.com/webzj/m163_1.0.1/pub/index_dl.html?wdaId= (745 ms)",
+      "https://dl.reg.163.com/webzj/m163_1.0.1/pub/index_dl.html?wdaId= (721 ms)",
+      "http://cp.127.net/cte/ctest?1490191305472 (9281 ms)",
+      "https://dl.reg.163.com/webzj/m163_1.0.1/pub/index_dl.html?wdaId= (711 ms)"
+    ],
+    "smallestLatency": [
+      "http://ursdoccdn.nosdn.127.net/webzj_m163/message_2016072801.js (33 ms)",
+      "http://hzp.127.net/cte/hzp?1490191305307 (30 ms)",
+      "http://mimg.127.net/ggimg/all/img19/ico_gg.png (35 ms)",
+      "http://ursdoccdn.nosdn.127.net/webzj_m163/message_2016072801.js (32 ms)",
+      "http://ursdoccdn.nosdn.127.net/webzj_m163/message_2016072801.js (30 ms)"
+    ],
+    "biggestLatency": [
+      "https://dl.reg.163.com/webzj/m163_1.0.1/pub/index_dl.html?wdaId= (715 ms)",
+      "https://dl.reg.163.com/webzj/m163_1.0.1/pub/index_dl.html?wdaId= (731 ms)",
+      "https://dl.reg.163.com/webzj/m163_1.0.1/pub/index_dl.html?wdaId= (707 ms)",
+      "http://cp.127.net/cte/ctest?1490191305472 (9280 ms)",
+      "https://dl.reg.163.com/webzj/m163_1.0.1/pub/index_dl.html?wdaId= (699 ms)"
+    ]
+  }
+}
